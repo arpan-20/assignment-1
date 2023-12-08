@@ -3,12 +3,13 @@
     padding: 0px;
 }
 .nav{
-    background-color: rgb(21, 229, 222);
+    background-color: #ACECE8;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .logo{
     width: 160px;
@@ -19,7 +20,7 @@
     color: rgb(138, 43, 226);
     display: flex;
     gap: 25px;
-    padding-right: 40px;
+    padding-left: 80px;
     font-size: 20px;
     font-family: 'Hedvig Letters Serif', serif;
 }
@@ -27,55 +28,59 @@
     color: rgb(138,43,226);
     font-size: 25px;
 }
-.intro{
-    position: relative;
+.hero{
     background-color: #18736D;
     display: flex;
     align-items: center;
-    justify-content: space-around;
 }
 .about{
-    position: relative;
+    position: absolute;
+    margin: 80px;
     left: 120px;
+    text-align: center;
+    font-size: large;
     font-family: 'Hedvig Letters Serif', serif;
-    color: #FFFFFF;
-    align-items: center;
-    column-gap: 20px;
+    line-height: 100px;
+    color:#FFFFFF;
 }
 .lawyer{
     position: relative;
-    left: 300px;
+    top: 5px;
+    left: 960px;
     width: 400px;
 }
 .heading{
-    font-size: 40px;
-    line-height: 60px;
+    font-size: 80px;
+    align-items: center;
 }
 .button1{
+    position: relative;
+    left: 280px;
     display: block;
-    padding: 10px;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px ;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
     border: none;
     background-color: #092D43;
     color: #FFFFFF;
-    align-items: center;
 }
 .content1{
-    line-height: 40px;
+    font-size: 20px;
 }
 .content2{
-    line-height: 40px;
+    line-height: 20px;
 }
 .box1{
     position: relative;
-    justify-content: center;
     align-items: center;
+    text-align: center;
     top: 180px;
-    right: 130px;
+    left: 640px;
     margin: 20px;
     padding: 20px;
     padding-left: 40px;
@@ -88,53 +93,60 @@
     -o-border-radius: 5px;
 
 }
-.content3{
+.services-container{
     background-color: #CBF1EF;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    column-gap: 20px;
-}
-.content4{
-    color: #18736D;
-    font-size: 50px;
-}
-.content5{
-    font-size: 20px;
+    text-align: center;
 }
 .services{
+    position: relative;
     display: block;
-    left: 400px;
-    top: 500px;
+    left: 160px;
+}
+.content3{
+    color: #18736D;
+    font-size: 60px;
+    font-family: 'Hedvig Letters Serif', serif;
+}
+.content4{
+    position: relative;
+    top: 30px;
+    font-family: 'Hedvig Letters Serif', serif;
+    font-size: 20px;
+    color: black;
 }
 .container1{
+    position: relative;
     display: block;
-    top: 50px;
+    left: 240px;
 }
 .container2{
+    position: relative;
     display: block;
+    left: 120px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 .box2{
-    top: 60px;
-    left: 700px;
-    margin: 40px;
-    padding: 60px;
+    margin: 30px;
+    padding: 30px;
     padding-left: 50px;
     padding-right: 50px;
     background-color: #FFFFFF;
     align-items: center;
+    text-align: center;
     border-radius: 30px;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
     -ms-border-radius: 30px;
     -o-border-radius: 30px;
+    font-family: 'Hedvig Letters Serif', serif;
 }
 
 .box3{
-    top: 60px;
-    left: 700px;
-    margin: 40px;
-    padding: 60px;
+    margin: 30px;
+    padding: 30px;
     padding-left: 50px;
     padding-right: 50px;
     background-color: #FFFFFF;
@@ -144,11 +156,11 @@
     -moz-border-radius: 30px;
     -ms-border-radius: 30px;
     -o-border-radius: 30px;
+    font-family: 'Hedvig Letters Serif', serif;
 }
 .box4{
-    top: 400px;
-    margin: 40px;
-    padding: 60px;
+    margin: 30px;
+    padding: 30px;
     padding-left: 50px;
     padding-right: 50px;
     background-color: #FFFFFF;
@@ -158,11 +170,11 @@
     -moz-border-radius: 30px;
     -ms-border-radius: 30px;
     -o-border-radius: 30px;
+    font-family: 'Hedvig Letters Serif', serif;
 }
 .box5{
-    top: 400px;
-    margin: 40px;
-    padding: 60px;
+    margin: 30px;
+    padding: 30px;
     padding-left: 50px;
     padding-right: 50px;
     background-color: #FFFFFF;
@@ -172,9 +184,175 @@
     -moz-border-radius: 30px;
     -ms-border-radius: 30px;
     -o-border-radius: 30px;
+    font-family: 'Hedvig Letters Serif', serif;
 }
 .review{
     background-color: #F2F7FF;
     align-items: center;
+    justify-content: center;
+}
+.review-content{
+    position: relative;
+    top: 20px;
+    left: 540px;
+    font-size: 50px;
+    font-family: 'Hedvig Letters Serif', serif;
+    font-weight: bolder;
+}
+.reviews{
+    display: flex;
     justify-content: space-around;
+    line-height: 20px;
+}
+.review1{
+    margin: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 40px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    font-family: 'Hedvig Letters Serif', serif;
+}
+.review2{
+    margin: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 40px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    font-family: 'Hedvig Letters Serif', serif;
+}
+.review-image1{
+    position: relative;
+    left: 250px;
+    bottom: 20px;
+}
+.reviewer1{
+    position: relative;
+    left: 315px;
+    bottom: 70px;
+}
+.ceo1{
+    position: relative;
+    left: 315px;
+    bottom: 70px;
+}
+.review-image2{
+    position: relative;
+    left: 1000px;
+    bottom: 120px;
+}
+.reviewer2{
+    position: relative;
+    left: 1070px;
+    bottom: 170px;
+}
+.ceo2{
+    position: relative;
+    left: 1070px;
+    bottom: 170px;
+}
+.see-more{
+    position: relative;
+    padding: 20px;
+    left: 630px;
+    bottom: 100px;
+    background-color:#094B72;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-size: 20px;
+}
+.question{
+    align-items: center;
+    margin: 40px;
+    padding: 40px;
+    padding-bottom: 120px;
+}
+.content6{
+    position: relative;
+    left: 440px;
+    font-size: 50px;
+    font-family: 'Hedvig Letters Serif', serif;
+}
+.content7{
+    position: relative;
+    top: 30px;
+    left: 420px;
+    font-size: 20px;
+    font-family: 'Hedvig Letters Serif', serif;
+}
+.fa-phone{
+    color: #FFFFFF;
+}
+.button2{
+    position: relative;
+    left: 550px;
+    top: 60px;
+    padding: 20px;
+    background-color:#094B72;
+    color: white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.end{
+    display: flex;
+    align-items: center;
+    padding-bottom: 120px;
+    background-color: #18736D;
+    list-style: none;
+    line-height: 30px;
+}
+.end-image{
+    position: relative;
+    width: 600px;
+    left: 200px;
+}
+.social{
+    position: relative;
+    top: 100px;
+    right: 400px;
+}
+.rights{
+    position: relative;
+    top: 140px;
+    right: 480px;
+    color: #FFFFFF;
+}
+.company{
+    position: relative;
+    bottom: 30px;
+    color: #FFFFFF;
+}
+.li1{
+    position: relative;
+    top: 80px;
+    right: 70px;
+    color: #FFFFFF;
+}
+.support{position: relative;
+    bottom: 30px;
+    color: #FFFFFF;
+}
+.li2{position: relative;
+    top: 90px;
+    right: 60px;
+    color: #FFFFFF;
 }
